@@ -63,3 +63,9 @@ end
 group :test do
   gem 'capybara'
 end
+
+group :heroku do
+  gem 'pg'
+  gem 'rails_12factor'
+  gem 'heroku'
+end
